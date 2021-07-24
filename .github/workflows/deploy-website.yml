@@ -1,0 +1,14 @@
+name: deploy-plant-website
+on: [push]
+jobs: 
+  build-website: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout code
+        uses: actions/checkout@v2
+    
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 13.x
+      - run: npm run deploy
