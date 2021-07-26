@@ -7,6 +7,9 @@ function App() {
     <div className="App bg-gray-100">
       <Header />
       <Main />
+      <footer style={{backgroundColor: 'red'}}>
+        Test
+      </footer>
     </div>
   );
 }
