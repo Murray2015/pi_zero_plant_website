@@ -1,5 +1,6 @@
 import "./App.css";
-import Header from "./components/header";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Main from "./components/main";
 
 function App() {
@@ -7,9 +8,7 @@ function App() {
     <div className="App bg-gray-100">
       <Header />
       <Main />
-      <footer style={{backgroundColor: 'red'}}>
-        Test
-      </footer>
+      <Footer />
     </div>
   );
 }
