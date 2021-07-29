@@ -15,7 +15,11 @@ export default function Chart({
   x_dy = 20,
   y_dy = -25,
   xLabel = "Date",
+  data_removal_threshold = false
 }) {
+  if(data_removal_threshold && data){
+    data = data.filter(item => item.y >= data_removal_threshold)
+  }
   return (
     <VictoryChart
       theme={VictoryTheme.material}

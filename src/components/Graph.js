@@ -41,7 +41,7 @@ export default function Graph() {
 
   const graphs = [
     {
-      graph: <Chart data={luxData} yLabel="Luminescence" y_dy={-30} />,
+      graph: <Chart data={luxData} yLabel="Luminescence" y_dy={-30}  data_removal_threshold={100} />,
       label: "Luminescence",
       action: () => {
         setGraphNo(0);
@@ -55,7 +55,7 @@ export default function Graph() {
       },
     },
     {
-      graph: <Chart data={pressureData} yLabel="Pressure" y_dy={-30} />,
+      graph: <Chart data={pressureData} yLabel="Pressure" y_dy={-30} data_removal_threshold={10} />,
       label: "Pressure",
       action: () => {
         setGraphNo(2);
