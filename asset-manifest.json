@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pi_zero_plant_website/static/css/main.117a71bc.chunk.css",
-    "main.js": "/pi_zero_plant_website/static/js/main.b518bb53.chunk.js",
-    "main.js.map": "/pi_zero_plant_website/static/js/main.b518bb53.chunk.js.map",
+    "main.css": "/pi_zero_plant_website/static/css/main.bf231e71.chunk.css",
+    "main.js": "/pi_zero_plant_website/static/js/main.3b8bc801.chunk.js",
+    "main.js.map": "/pi_zero_plant_website/static/js/main.3b8bc801.chunk.js.map",
     "runtime-main.js": "/pi_zero_plant_website/static/js/runtime-main.0def15d5.js",
     "runtime-main.js.map": "/pi_zero_plant_website/static/js/runtime-main.0def15d5.js.map",
     "static/js/2.7be6f0b1.chunk.js": "/pi_zero_plant_website/static/js/2.7be6f0b1.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.2857dfea.chunk.js": "/pi_zero_plant_website/static/js/3.2857dfea.chunk.js",
     "static/js/3.2857dfea.chunk.js.map": "/pi_zero_plant_website/static/js/3.2857dfea.chunk.js.map",
     "index.html": "/pi_zero_plant_website/index.html",
-    "static/css/main.117a71bc.chunk.css.map": "/pi_zero_plant_website/static/css/main.117a71bc.chunk.css.map",
+    "static/css/main.bf231e71.chunk.css.map": "/pi_zero_plant_website/static/css/main.bf231e71.chunk.css.map",
     "static/js/2.7be6f0b1.chunk.js.LICENSE.txt": "/pi_zero_plant_website/static/js/2.7be6f0b1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0def15d5.js",
     "static/js/2.7be6f0b1.chunk.js",
-    "static/css/main.117a71bc.chunk.css",
-    "static/js/main.b518bb53.chunk.js"
+    "static/css/main.bf231e71.chunk.css",
+    "static/js/main.3b8bc801.chunk.js"
   ]
 }
